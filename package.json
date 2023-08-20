@@ -1,0 +1,51 @@
+{
+  "name": "pluralsight-project-build-an-album-store-product-page-with-angular",
+  "version": "0.0.2",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --host 0.0.0.0 --disable-host-check",
+    "build": "ng build",
+    "test": "mocha ./src/spec --recursive --reporter spec",
+    "test:module1": "mocha ./src/spec/module1.test.js --recursive --reporter spec",
+    "test:module2": "mocha ./src/spec/module2.test.js --recursive --reporter spec",
+    "test:module3": "mocha ./src/spec/module3.test.js --recursive --reporter spec",
+    "test:module4": "mocha ./src/spec/module4.test.js --recursive --reporter spec",
+    "test:module5": "mocha ./src/spec/module5.test.js --recursive --reporter spec",
+    "test:module6": "mocha ./src/spec/module6.test.js --recursive --reporter spec",
+    "mocha-json": "mocha ./src/spec --reporter json"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "5.2.0",
+    "@angular/common": "5.2.0",
+    "@angular/compiler": "5.2.0",
+    "@angular/core": "5.2.0",
+    "@angular/forms": "5.2.0",
+    "@angular/http": "5.2.0",
+    "@angular/platform-browser": "5.2.0",
+    "@angular/platform-browser-dynamic": "5.2.0",
+    "@angular/router": "5.2.0",
+    "core-js": "2.4.1",
+    "rxjs": "5.5.6",
+    "zone.js": "0.8.12"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.6.5",
+    "@angular/compiler-cli": "5.2.0",
+    "@angular/language-service": "5.2.0",
+    "@phenomnomnominal/tsquery": "2.1.1",
+    "@types/node": "6.0.60",
+    "bootstrap": "3.3.7",
+    "chai": "4.0.1",
+    "cheerio": "1.0.0-rc.2",
+    "codelyzer": "4.0.1",
+    "cssom": "0.3.0",
+    "minimist": "1.2.0",
+    "mocha": "3.4.2",
+    "parse5": "5.1.0",
+    "ts-node": "4.1.0",
+    "tslint": "5.9.1",
+    "typescript": "2.5.3"
+  }
+}
